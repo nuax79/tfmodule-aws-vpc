@@ -1,13 +1,13 @@
 context = {
   aws_credentials_file  = "$HOME/.aws/credentials"
-  aws_profile           = "dxterra"
+  aws_profile           = "profile"
   aws_region            = "ap-northeast-2"
   region_alias          = "an2"
 
-  project               = "chiwoointra"
-  environment           = "Testbed"
-  env_alias             = "t"
+  project               = "simple"
+  environment           = "dev"
+  env_alias             = "d"
   team                  = "DX"
-  owner                 = "dx@master"
-  cost_center           = 333
+  owner                 = "test@master"
+  cost_center           = 1234
 }
